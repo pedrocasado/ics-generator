@@ -1,0 +1,30 @@
+{
+    "name": "pedrocasado/ics-generator",
+
+    "description": "This class dynamically generates .ics files",
+
+    "license": "MIT",
+
+    "authors": [
+        {
+            "name": "Pedro Casado",
+            "email": "pdr33n@gmail.com"
+        }
+    ],
+
+    "minimum-stability": "dev",
+
+    "require": {
+        "php": ">=5.4.0"
+    },
+
+    "support": {
+        "issues": "https://github.com/pedrocasado/ics-generator/issues"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "IcsGenerator": "src/"
+        }
+    }
+}
